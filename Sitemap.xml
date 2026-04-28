@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+
+
+  <!-- Página principal -->
+  <url>
+    <loc>https://ikerforeronavarro-arch.github.io/Trabajo-reto/Index.com</loc>
+    <lastmod>2024-05-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Otra página -->
+  <url>
+    <loc>https://ikerforeronavarro-arch.github.io/Trabajo-reto/PAR.com</loc>
+    <lastmod>2024-05-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+	
+ <url>
+    <loc>https://ikerforeronavarro-arch.github.io/Trabajo-reto/GBD.com</loc>
+    <lastmod>2024-05-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
+    <loc>https://ikerforeronavarro-arch.github.io/Trabajo-reto/IPE.com</loc>
+    <lastmod>2024-05-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
+    <loc>https://ikerforeronavarro-arch.github.io/Trabajo-reto/DASP.com</loc>
+    <lastmod>2024-05-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+   <url>
+    <loc>https://ikerforeronavarro-arch.github.io/Trabajo-reto/ISO.com</loc>
+    <lastmod>2024-05-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
