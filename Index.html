@@ -4,54 +4,59 @@
     <title>Misión: Inclusión - Portal Digital</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      	<meta http-equiv="Content-Style-Type" content="text/css" />
+     
 		<link rel="sitemap" type="application/xml" title="Sitemap" href="Sitemap.xml" />
     <link rel="stylesheet" type="text/css" href="estilos-reto.css" />
-</head>
+</head> 
 
 <body>		
 		<!--Aqui hemos utilizado una barra como class para contener todo lo que viene siendo el menu de cada asignatura y el logotipo  -->
-	<header class="barra">	
-		<div class="menu-contenedor">
-			<div class="contenedor-principal">
+	<header class="barra">
+			  <div class="contenedor-principal">
 				<img src="Imagenes/logo.png" alt="Imagen LOGO Equipo4" />
 			</div>
-			<nav>
-				<a href="Index.html" class="opcion-menu">INICIO</a>
-				<a href="PAR.html" class="opcion-menu">PAR</a>
-				<a href="GBD.html" class="opcion-menu">GBD</a>
-				<a href="IPE.html" class="opcion-menu">IPE</a>
-				<a href="DASP.html" class="opcion-menu">DASP</a>
-				<a href="ISO.html" class="opcion-menu">ISO</a>
-			</nav>
-		</div>
-		
+	<!--Aqui va ir el menu hamburguesa para el responsive -->
+			  <nav class="navigation">
+				<input type="checkbox" id="menu">
+				<label for="menu" class="menu-icon"> ☰ </label>
+				
+				<ul class="menu-list">
+				  <li><a href="Index.html">Inicio</a></li>
+				  <li><a href="PAR.html">PAR</a></li>
+				  <li><a href="GBD.html">GBD</a></li>
+				  <li><a href="IPE.html">IPE</a></li>
+				  <li><a href="DASP.html">DASP</a></li>
+				  <li><a href="ISO.html">ISO</a></li>
+				</ul>
+			  </nav>
 	</header>
 		
-	  <div class="contenedor-centrador" >
+
+		
+	<div class="contenedor-centrador" >
 		<img src="Imagenes/imagen2.png" id="imagen-a" alt="Imagen de informatica" /> 
-	  </div>
-		<!--Se puede apreciar que hemos utilizado diferentes estilos para cada recuadro y en este hemos tenido que usar uno diferente para que la imagen quede al lado del texto -->
-	  <div class="recuadro-claro-b"> 
-            <h2 >Sobre nuestro proyecto</h2>
+	</div>
+	<!--Se puede apreciar que hemos utilizado diferentes estilos para cada recuadro y en este hemos tenido que usar uno diferente para que la imagen quede al lado del texto -->
+	<div class="recuadro-claro-b"> 
+        <h2 >Sobre nuestro proyecto</h2>
 			
-                <p>
-                        ¡Hola! Somos estudiantes de <strong>ASIR</strong>. Este portal es nuestra respuesta al reto de la brecha digital.Nos hemos propuesto 
-						ayudar a miles de familias sin muchos recursos y personas mayores se
-						encuentran hoy "desconectadas" de servicios esenciales que ahora son exclusivamente digitales.Este portal sirve para ayudarles y tambien para el reacondicionamos equipos informáticos para darles una segunda vida, sino que centralizamos 
-                        los servicios esenciales para que nadie se quede atrás en esta era digital.
-				</p>
-				<img src="Imagenes/asir1.jpg" alt="Grupo ASIR 1" id="imagen" />
-	   </div>
-	   
-	   <div class="contenedor-perfil">
+            <p>
+                    ¡Hola! Somos estudiantes de <strong>ASIR</strong>. Este portal es nuestra respuesta al reto de la brecha digital.Nos hemos propuesto 
+					ayudar a miles de familias sin muchos recursos y personas mayores se
+					encuentran hoy "desconectadas" de servicios esenciales que ahora son exclusivamente digitales.Este portal sirve para ayudarles y tambien para el reacondicionamos equipos informáticos para darles una segunda vida, sino que centralizamos 
+                    los servicios esenciales para que nadie se quede atrás en esta era digital.
+			</p>
+			<img src="Imagenes/asir1.jpg" alt="Grupo ASIR 1" id="imagen" />
+	</div>
+			<h1> LOS MIEMBROS DE LA GNG </h1>
+	    <div class="contenedor-perfil">
 			<div class="perfil">
 				<div class="foto1">
 						
 					</div>
 					<span class="nombre"> Iker Forero </span>
 					<span class="cargo">Desarrollador </span>
-					<p>
+					
 				</div>
 		
 			<div class="perfil">
@@ -79,17 +84,12 @@
 			</div>
 		</div>
 		
-		<div class="recuadro-claro">
-            <h2 >
-				Lorem impusum
-			</h2>
-                 <p>
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
-                 </p>                           				             
-		</div>
 	
 		<!--Aqui esta el pie de pagina, hemos usado listas para ordenar cada columna y hemos añadido links para ayudar en gestiones de pedir cita o diferentes , como se pedia en el reto  -->
 		<footer id="pie-pagina">
+			<div class="columnas">
+				<img src="Imagenes/zabalburu.png" />
+			</div>	
 			<div class="columnas" >
 				<h3> DATOS DE CONTACTO </h3>
 					<p> Esperanza 12 | 48005 Bilbao </p>
@@ -97,36 +97,36 @@
 			
 			<div class="columnas">
 				<h3>LISTA DE ENLACES </h3>
-				<ul>
-					<li>		
-						<a href="https://www.osakidetza.euskadi.eus/portada/">
-						Pedir Cita Médica. 
-						</a>
-					</li>
-					<li>
-						<a href="https://www.osakidetza.euskadi.eus/carpeta-de-salud/webosk00-sercon/es/">Carpeta de Salud.</a>
-					</li>
-					<li>
-						<a href="https://www.citapreviadnie.es/citaPreviaDni">Cita DNI/Pasaporte.</a>
-					</li>
-					<li>
-						<a href="https://www.bilbao.eus/cs/Satellite?cid=1272990083710&language=es&pagename=Bilbaonet/Page/BIO_homeSrvTramites">Sede Electrónica Ayuntamiento.
-						</a>
-				   </li>
-				   <li>
-						<a href="https://portal.seg-social.gob.es/wps/portal/importass/importass/Categorias/Vida+laboral+e+informes/Informes+sobre+tu+situacion+laboral/Informe+de+tu+vida+laboral">Seguridad Social / Vida Laboral.
-						</a>
-				  </li>
-				  <li>
-						<a href="https://www.bbva.es/nimbus/signin.html">Acceso a mi Banco.</a>
-				  </li>
-				  <li>
-						<a href="https://www.mercadona.es/">Supermercado Online.</a>
-				  </li>
-			   </ul>
+					<ul>
+						<li>		
+							<a href="https://www.osakidetza.euskadi.eus/portada/">
+							Pedir Cita Médica. 
+							</a>
+						</li>
+						<li>
+							<a href="https://www.osakidetza.euskadi.eus/carpeta-de-salud/webosk00-sercon/es/">Carpeta de Salud.</a>
+						</li>
+						<li>
+							<a href="https://www.citapreviadnie.es/citaPreviaDni">Cita DNI/Pasaporte.</a>
+						</li>
+						<li>
+							<a href="https://www.bilbao.eus/cs/Satellite?cid=1272990083710&language=es&pagename=Bilbaonet/Page/BIO_homeSrvTramites">Sede Electrónica Ayuntamiento.
+							</a>
+						</li>
+						<li>
+							<a href="https://portal.seg-social.gob.es/wps/portal/importass/importass/Categorias/Vida+laboral+e+informes/Informes+sobre+tu+situacion+laboral/Informe+de+tu+vida+laboral">Seguridad Social / Vida Laboral.
+							</a>
+						</li>
+						<li>
+							<a href="https://www.bbva.es/nimbus/signin.html">Acceso a mi Banco.</a>
+						</li>
+						<li>
+							<a href="https://www.mercadona.es/">Supermercado Online.</a>
+						</li>
+					</ul>
 						&copy; copyright - ASIR 1 &#169;
 		    </div>
-	     </footer>
+	    </footer>
 			<!--Aqui esta el script del chatbot , el cual   -->	
 			<script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
 			<script src="https://files.bpcontent.cloud/2026/03/27/08/20260327084806-OQ36NLE7.js" defer></script>

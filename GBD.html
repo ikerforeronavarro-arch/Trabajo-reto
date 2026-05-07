@@ -4,26 +4,29 @@
     <title>Misión: Inclusión - Portal Digital</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      	<meta http-equiv="Content-Style-Type" content="text/css" />
+      	
     <link rel="stylesheet" type="text/css" href="estilos-reto.css" />
 </head>
 
 <body>
 
 	<header class="barra">
-		<div class="menu-contenedor">
 			<div class="contenedor-principal">
 				<img src="Imagenes/logo.png" alt="Imagen LOGO Equipo4" />
 			</div>
-			<nav>
-				<a href="Index.html" class="opcion-menu">INICIO</a>
-				<a href="PAR.html" class="opcion-menu">PAR</a>
-				<a href="GBD.html" class="opcion-menu" id="active">GBD</a>
-				<a href="IPE.html" class="opcion-menu">IPE</a>
-				<a href="DASP.html" class="opcion-menu">DASP</a>
-				<a href="ISO.html" class="opcion-menu">ISO</a>
-			</nav>	
-		</div>
+			<nav class="navigation">
+				<input type="checkbox" id="menu">
+				<label for="menu" class="menu-icon"> ☰ </label>
+				
+				<ul class="menu-list">
+				  <li><a href="Index.html">Inicio</a></li>
+				  <li><a href="PAR.html">PAR</a></li>
+				  <li><a href="GBD.html">GBD</a></li>
+				  <li><a href="IPE.html">IPE</a></li>
+				  <li><a href="DASP.html">DASP</a></li>
+				  <li><a href="ISO.html">ISO</a></li>
+				</ul>
+			</nav>
 	</header>
 		
 	   <div class="contenedor-centrador" >
@@ -35,21 +38,173 @@
             <h2 >
 				Gestion de Bases de Datos
 			</h2>
-                 <p >
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+                 <p>Para que este sistema funcione en el mundo real, no basta con tener datos aislados; necesitamos una estructura que refleje el flujo de solidaridad desde que un centro educativo dona un ordenador hasta que este llega a manos de una persona mayor. Imagina que el centro de voluntariado recibe una donación masiva de 20 portátiles: sin una base de datos, perderíamos el rastro de qué equipo necesita RAM, quién es el técnico voluntario responsable de repararlo o a qué familia se le ha asignado para que pueda pedir su cita médica digital.
+				A continuación, detallo el significado y el valor estratégico de cada tabla dentro de este ecosistema digital:
+
                  </p>                           				             
 		</div>
 		
-		<div class="galeria" >
-			<div class="contenedor-derecho" >
-				<img src="Imagenes/Captura de pantalla 2026-04-17 083607.png" alt="Imagen SQL" />			
-		   </div>
-			<div class="contenedor-izquierdo" >
-				<img src="Imagenes/Captura de pantalla 2026-04-17 083815.png" alt="Imagen captura relaciones tablas GBD"  />			
-		   </div>
-		</div>
+		<div class="recuadro-GBD">        
+			<input type="checkbox" id="check16" class="input-desplegable">
+			
+			<label for="check16" class="label-desplegable">
+				<h2 id="titulo-directorio" >MODELO DE RELACION</h2>
+				
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+							
+					
+				<img src="Imagenes/Relacion.png" id="imagen-c" alt="Imagen captura relaciones tablas GBD"  />			
+			</div>	
+		 </div>
+	
+		
+			<div class="fila-desplegables">
+
+    <div class="recuadro-GBD-peque caja-derecha">
+        <input type="checkbox" id="check1" class="input-desplegable">
+        <label for="check1" class="label-desplegable">
+            <h2 class="titulo-tabla">Tabla: Voluntarios</h2>
+        </label>
+        <div class="contenido-desplegable">
+            <p>Representa el capital humano del proyecto. Su función principal es permitir la asignación de tareas según el perfil técnico o pedagógico.</p>
+        </div>
+    </div>
+
+    <div class="recuadro-GBD-peque caja-izquierda">
+        <input type="checkbox" id="check2" class="input-desplegable">
+        <label for="check2" class="label-desplegable">
+            <h2 class="titulo-tabla">Tabla: Equipos</h2>
+        </label>
+        <div class="contenido-desplegable">
+            <p>Inventario físico de los dispositivos donados. Registra especificaciones técnicas del hardware para trazabilidad y control de calidad.</p>
+        </div>
+    </div>
+
+</div>
+
+					<div class="fila-desplegables">
+
+    <div class="recuadro-GBD-peque caja-derecha">
+        <input type="checkbox" id="check3" class="input-desplegable">
+        <label for="check3" class="label-desplegable">
+            <h2 class="titulo-tabla">Tabla: Beneficiarios (Ciudadanos) </h2>
+        </label>
+        <div class="contenido-desplegable">
+            <p>Almacena la información de las familias y personas mayores que recibirán ayuda. </p>
+        </div>
+    </div>
+
+    <div class="recuadro-GBD-peque caja-izquierda">
+        <input type="checkbox" id="check4" class="input-desplegable">
+        <label for="check4" class="label-desplegable">
+            <h2 class="titulo-tabla">Tabla: Cursos (Catálogo Formativo)</h2>
+        </label>
+        <div class="contenido-desplegable">
+            <p>Funciona como el repositorio de la oferta educativa. Define los contenidos disponibles (Banca online, Cita médica previa, etc.) y su duración.</p>
+        </div>
+    </div>
+
+</div>
+		
+					<div class="fila-desplegables">
+
+    <div class="recuadro-GBD-peque caja-derecha">
+        <input type="checkbox" id="check5" class="input-desplegable">
+        <label for="check5" class="label-desplegable">
+            <h2 class="titulo-tabla">Tabla: Matrículas (Tabla Intermedia N:M) </h2>
+        </label>
+        <div class="contenido-desplegable">
+            <p>Esta tabla es fundamental para la integridad del sistema. Resuelve la relación de que muchos alumnos pueden ir a muchos cursos.  </p>
+        </div>
+    </div>
+
+    <div class="recuadro-GBD-peque caja-izquierda">
+        <input type="checkbox" id="check6" class="input-desplegable">
+        <label for="check6" class="label-desplegable">
+            <h2 class="titulo-tabla">Tabla: Asignaciones (Registro de Entregas)</h2>
+        </label>
+        <div class="contenido-desplegable">
+            <p>Es el acta digital de entrega. Conecta un equipo físico específico con un beneficiario concreto en una fecha determinada.</p>
+        </div>
+    </div>
+
+</div>
+
+		 <div class="recuadro-GBD">        
+			<input type="checkbox" id="check 18" class="input-desplegable">
+			
+			<label for="check 18" class="label-desplegable">
+				<h2 id="titulo-directorio" >Relaciones del Modelo (Cardinalidad) </h2>
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+				<div class="columna-lista">	
+					<p>Para garantizar que los datos estén organizados y sin errores, el modelo se rige por las siguientes reglas de negocio:</p>
+					<ul>
+						<li><b>1 Voluntario : N Equipos</b>: Un técnico puede reparar muchos PCs.</li>
+						<li><b>1 Beneficiario : N Matrículas</b>: Una persona puede aprender de varios cursos.</li>
+						<li><b>1 Curso : N Matrículas</b>: Un curso tiene muchos alumnos inscritos. </li>
+						<li><b>1 Beneficiario : N Asignaciones </b>: Una familia puede recibir varios dispositivos.</li>
+						<li><b>1 Equipo : 1 Asignación</b>: Un dispositivo físico solo se entrega una vez a una persona</li>
+
+					</ul>
+				</div>
+				  			
+			</div>	
+		 </div>
+			
+			
+		<div class="recuadro-GBD">        
+			<input type="checkbox" id="check20" class="input-desplegable">
+			
+			<label for="check20" class="label-desplegable">
+				<h2 id="titulo-directorio" >OPERACIONES SQL</h2>
+				
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+							
+					
+							
+					
+				<img src="Imagenes/tablas.png" id="imagen-d" alt="Imagen captura relaciones tablas GBD"  />			
+			</div>
+				
+							
+			</div>	
+		  <div class="recuadro-ISO">        
+			<input type="checkbox" id="check 8" class="input-desplegable">
+			
+			<label for="check 8" class="label-desplegable">
+				<h2 id="titulo-directorio" >OPERACION PL/SQL</h2>
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+				
+				<p>
+				Este script automatiza la entrega de suministros, registrando simultáneamente quién recibe el equipo y actualizando su estado a 'ENTREGADO'. De este modo, garantiza la trazabilidad del reparto y evita errores de inventario al retirar el equipo del stock disponible en tiempo real.
+				</p>
+				
+				
+				 <div class="columna-imagen">
+					<img src="Imagenes/plsql.png" alt="Auditorio"/>
+				 </div> 			
+			</div>	
+		 </div>
+		 
+			
+		
 		
 		<footer id="pie-pagina">
+			<div class="columnas">
+				<img src="Imagenes/zabalburu.png" />
+			</div>
 			<div class="columnas" >
 				<h3> DATOS DE CONTACTO </h3>
 					<p> Esperanza 12 | 48005 Bilbao </p>
@@ -57,36 +212,36 @@
 			
 			<div class="columnas">
 				<h3>LISTA DE ENLACES </h3>
-				<ul>
-					<li>		
-						<a href="https://www.osakidetza.euskadi.eus/portada/">
-						Pedir Cita Médica.
-						</a>
-					</li>
-					<li>
-						<a href="https://www.osakidetza.euskadi.eus/carpeta-de-salud/webosk00-sercon/es/">Carpeta de Salud.</a>
-					</li>
-					<li>
-						<a href="https://www.citapreviadnie.es/citaPreviaDni">Cita DNI/Pasaporte.</a>
-					</li>
-					<li>
-						<a href="https://www.bilbao.eus/cs/Satellite?cid=1272990083710&language=es&pagename=Bilbaonet/Page/BIO_homeSrvTramites">Sede Electrónica Ayuntamiento.
-						</a>
-				   </li>
-				   <li>
-						<a href="https://portal.seg-social.gob.es/wps/portal/importass/importass/Categorias/Vida+laboral+e+informes/Informes+sobre+tu+situacion+laboral/Informe+de+tu+vida+laboral">Seguridad Social / Vida Laboral.
-						</a>
-				  </li>
-				  <li>
-						<a href="https://www.bbva.es/nimbus/signin.html">"Acceso a mi Banco".</a>
-				  </li>
-				  <li>
-						<a href="https://www.mercadona.es/">Supermercado Online".</a>
-				  </li>
-			   </ul>
+					<ul>
+						<li>		
+							<a href="https://www.osakidetza.euskadi.eus/portada/">
+							Pedir Cita Médica.
+							</a>
+						</li>
+						<li>
+							<a href="https://www.osakidetza.euskadi.eus/carpeta-de-salud/webosk00-sercon/es/">Carpeta de Salud.</a>
+						</li>
+						<li>
+							<a href="https://www.citapreviadnie.es/citaPreviaDni">Cita DNI/Pasaporte.</a>
+						</li>
+						<li>
+							<a href="https://www.bilbao.eus/cs/Satellite?cid=1272990083710&language=es&pagename=Bilbaonet/Page/BIO_homeSrvTramites">Sede Electrónica Ayuntamiento.
+							</a>
+						</li>
+						<li>
+							<a href="https://portal.seg-social.gob.es/wps/portal/importass/importass/Categorias/Vida+laboral+e+informes/Informes+sobre+tu+situacion+laboral/Informe+de+tu+vida+laboral">Seguridad Social / Vida Laboral.
+							</a>
+						</li>
+						<li>
+							<a href="https://www.bbva.es/nimbus/signin.html">"Acceso a mi Banco".</a>
+						</li>
+						<li>
+							<a href="https://www.mercadona.es/">Supermercado Online".</a>
+						</li>
+					</ul>
 						&copy; copyright - ASIR 1 &#169;
 		    </div>
-	     </footer>
+	    </footer>
 		 
      	
 		  

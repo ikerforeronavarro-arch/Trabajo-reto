@@ -4,27 +4,28 @@
     <title>Misión: Inclusión - Portal Digital</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      	<meta http-equiv="Content-Style-Type" content="text/css" />
     <link rel="stylesheet" type="text/css" href="estilos-reto.css" />
 </head>
 
 <body>
-	<header class="barra">
-    
-		<div class="menu-contenedor">
-			<div class="contenedor-principal">
+	   <header class="barra">
+			  <div class="contenedor-principal">
 				<img src="Imagenes/logo.png" alt="Imagen LOGO Equipo4" />
 			</div>
-			<nav>
-				<a href="Index.html" class="opcion-menu">INICIO</a>
-				<a href="PAR.html" class="opcion-menu">PAR</a>
-				<a href="GBD.html" class="opcion-menu">GBD</a>
-				<a href="IPE.html" class="opcion-menu">IPE</a>
-				<a href="DASP.html" class="opcion-menu">DASP</a>
-				<a href="ISO.html" class="opcion-menu" id="active">ISO</a>
-			</nav>
-		</div>
-	</header>
+			  <nav class="navigation">
+				<input type="checkbox" id="menu">
+				<label for="menu" class="menu-icon"> ☰ </label>
+				
+				<ul class="menu-list">
+				  <li><a href="Index.html" tabindex="1">Inicio</a></li>
+				  <li><a href="PAR.html" tabindex="2">PAR</a></li>
+				  <li><a href="GBD.html" tabindex="3">GBD</a></li>
+				  <li><a href="IPE.html" tabindex="4">IPE</a></li>
+				  <li><a href="DASP.html" tabindex="5">DASP</a></li>
+				  <li><a href="ISO.html" tabindex="6">ISO</a></li>
+				</ul>
+			  </nav>
+		</header>
 		
 		<div class="contenedor-centrador" >
 			<img src="Imagenes/sistemas.png"
@@ -33,18 +34,333 @@
 			
 		<div class="recuadro-claro">        
             <h2 >
-				Implantacion de Sistemas Operativos 
+				Implantacion de Sistemas Operativos Lubuntu
 			</h2>	
                  <p >
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."		
+					Se centra en el reacondicionamiento de hardware antiguo utilizando la distribución Lubuntu por su ligereza y eficiencia en equipos con pocos recursos. La administración se profesionaliza mediante un Directorio Activo en Windows Server 2019 , donde se gestionan unidades organizativas, perfiles móviles obligatorios y políticas de grupo (GPOs) para restringir el acceso y garantizar un entorno seguro y funcional para los usuarios.		
                 </p>        
        </div>
+	   
+	  <div class="recuadro-ISO">        
+    <input type="checkbox" id="check 1" class="input-desplegable">
+    <label for="check 1" class="label-desplegable">
+        <h2 id="titulo-directorio" >Directorio Activo - LDAP</h2>
+    </label>
+		<div class="contenido-desplegable">
+			<div class="columna-lista">
+			<ul>
+				<li>🏢 <strong>UO_INFORMATICA</strong>
+							<ul>
+								<li>🔵 GG_INFORMATICA</li>
+							</ul>
+				</li>
+								<li>📁 <strong>UO_VOLUNTARIOS</strong>
+							<ul>
+								<li>👥 UO_GRUPOS_VOLUNTARIOS
+									<ul>
+										<li>🔵 GG_VOLUNTARIOS</li>
+									</ul>
+								</li>
+								<li>👤 UO_USUARIOS_VOLUNTARIOS
+									<ul>
+										<li>🧩 _plantillavoluntarios</li>
+										<li>VOLUNTARIOS</li>
+									</ul>
+								</li>
+							</ul>
+					
+						</li>
+						<li>📁 <strong>UO_BENEFICIARIOS</strong>
+							<ul>
+								<li>👥 UO_GRUPOS_BENEFICIARIOS
+									<ul>
+										<li>🔵 GG_BENEFICIARIOS</li>
+									</ul>
+								</li>
+								<li>👤 UO_USUARIOS_ASIR2
+									<ul>
+										<li>🧩 _plantillabeneficiarios</li>
+										<li>BENEFICIARIOS</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>📁 <strong>UO_EQUIPOS</strong>
+							<ul>
+								<li>🖥️ Equipos del dominio</li>
+							</ul>
+						</li>
+						<li>📂 <strong>UO_GRUPOS_DOMLOCAL</strong> 
+							<ul>
+								<li>👥 DL_VOLUNTARIOS_RW</li>
+								<li>👥 DL_BENEFICIARIOS_RO</li>
+								<li>👥 DL_COMPARTIDO_RW</li>
+							</ul>
+						</li>
+				</ul>
+				</div>
+				
+            <div class="columna-imagen">
+				<img src="Imagenes/LPAD.png" alt="Imagen Usuarios y Grupos"  />
+			</div>
+		</div>	
+	</div>
+					<div class="recuadro-ISO">        
+			<input type="checkbox" id="check 2" class="input-desplegable">
+			
+			<label for="check 2" class="label-desplegable">
+				<h2 id="titulo-directorio" >Directorio Activo - LDAP</h2>
+			</label>
+			<div class="contenido-desplegable">
+				<div class="columna-lista">
+                 
+					<ul>
+						<li>🔄 PERFILES MÓVILES 
+						<ul>
+							<li>📌 Carpeta PerfilesMoviles$ creada y compartida en oculto</li>
+							<li>📌 Permisos correctos asignados</li>
+							<li>📌 Ruta: \W2019-DC_RETO\PerfilesMoviles$%username%</li>
+						</ul>
+						</li>
+					</ul>	
+					<ul>
+						<li>🔒 PERFIL OBLIGATORIO  
+						<ul>
+							<li>📌 Carpeta PerfilesOB$ creada y compartida </li>
+							<li>📌 Perfil predeterminado copiado desde cliente Windows 7</li>
+							<li>📌 NTUSER.DAT renombrado a NTUSER.MAN</li> 
+							<li>📌 Asignado a BENEFICIARIOS → \W2019-DC_RETO\PerfilesOB$\OBLIGATORIO</li>
+							<li>📌 Comprobado que los cambios no se guardan al cerrar sesión</li>
+						</ul>
+						</li>
+                    </ul>  
+				</div>
+			  <div class="columna-imagen">
+				<img src="Imagenes/carpeta.png" alt="Carpeta"/>
+			  </div>
+			</div>	
+		</div>
+					  <div class="recuadro-ISO">        
+		<input type="checkbox" id="check 3" class="input-desplegable">
+		
+		<label for="check 3" class="label-desplegable">
+			<h2 id="titulo-directorio" >🕐Horarios de Inicio de Sesion y 🖥️ RESTRICCIÓN DE MÁQUINAS </h2>
+		</label>
+			<div class="contenido-desplegable">
+				<div class="columna-lista">
+				
+					<ul>
+						<li>📌 Configurados en las plantillas para herencia automática </li>
+						<li>📌 _plantillavoluntarios → Lunes a Viernes 8:00 - 20:00 </li>
+						<li>📌 _plantillabeneficiarios → Lunes a Viernes 9:00 - 14:00</li>
+						<li>📌 _plantillavoluntarios → solo desde W7-CLI1-RETO y W7-VOLUNTARIOS </li>
+						<li>📌 _plantillabeneficiarios → solo desde W7-CLI1-RETO y W7-BENEFICIARIOS </li>
+					</ul>
+				</div>
+			  <div class="columna-imagen">
+				<img src="Imagenes/horarios.png" alt="Imagen de horarios"/>
+			  </div>
+			</div>	
+		 </div>
+		 
+			<div class="recuadro-ISO">        
+			<input type="checkbox" id="check 4" class="input-desplegable">
+			
+			<label for="check 4" class="label-desplegable">
+				<h2 id="titulo-directorio" >🔑 POLÍTICAS DE CONTRASEÑAS Y BLOQUEO  </h2>
+			</label>
+			
+			<div class="contenido-desplegable">
+				<div class="columna-lista">
+				
+					<ul>
+						<li>📌 Configuradas en Default Domain Policy </li> 
+						<li>📌 Longitud mínima: 8 caracteres </li> 
+						<li>📌 Complejidad: activada </li>
+						<li>📌 Caducidad: 90 días </li>
+						<li>📌 Bloqueo tras 5 intentos fallidos </li>
+						<li>📌 Duración del bloqueo: 30 minutos</li>
+						
+					</ul>
+				</div>
+			  <div class="columna-imagen">
+				<img src="Imagenes/contra.png" alt="Imagen de contraseña"/>
+			  </div>
+			   <div class="columna-imagen">
+				<img src="Imagenes/contras.png" alt="Imagen de contraseñas"/>
+			  </div>
+			   
+			</div>	
+		 </div>
+          <div class="recuadro-ISO">        
+			<input type="checkbox" id="check 5" class="input-desplegable">
+			
+			<label for="check 5" class="label-desplegable">
+				<h2 id="titulo-directorio" >  📁 DIRECTORIOS PERSONALES Y CUOTAS		</h2>
+			</label>
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+					<ul>
+						<li>📌 Carpeta Personal$ creada y compartida </li>
+						<li>📌 Unidad Z: mapeada automáticamente al iniciar sesión </li>
+						<li>📌 Ruta: \W2019-DC_RETO\Personal$%username% </li>
+						<li>📌 Límite: 1GB — Aviso: 900MB </li>
+					</ul>
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/propie.png" alt="Imagen de propiedades"/>
+				 </div> 			
+			</div>	
+		 </div>	
+		     <div class="recuadro-ISO">        
+			<input type="checkbox" id="check 6" class="input-desplegable">
+			
+			<label for="check 6" class="label-desplegable">
+				<h2 id="titulo-directorio" >  👤 GPOS DE USUARIO	Y 🖥️ GPOS DE EQUIPO	</h2>
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+					<ul>
+						<li>📌 GPO_BENEFICIARIOS_PANELCONTROL → UO_USUARIOS_BENEFICIARIOS </li>
+						<li>📌 GPO_BENEFICIARIOS_USB → UO_USUARIOS_BENEFICIARIOS </li>
+						<li>📌 GPO_BENEFICIARIOS_CMD → UO_USUARIOS_BENEFICIARIOS </li>
+						<li>📌 GPO_BENEFICIARIOS_ACCESIBILIDAD → UO_USUARIOS_BENEFICIARIOS </li>
+						<li>📌 GPO_BENEFICIARIOS_ESCRITORIO → UO_USUARIOS_BENEFICIARIOS </li>
+						<li>📌 GPO_VOLUNTARIOS_REDIRECCION → UO_USUARIOS_VOLUNTARIOS</li>
+						<li>📌 Equipos movidos a UO_EQUIPOS</li>
+						<li>📌 GPO_EQUIPO_PANELCONTROL → Sencilla → UO_EQUIPOS </li>
+						<li>📌 GPO_EQUIPO_SEGURIDAD → Compleja (deshabilitar USB) → UO_EQUIPOS </li>
+
+					</ul>
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/admin.png" alt="Imagen de gpos de usuarios y de grupos"/>
+				 </div> 			
+			</div>	
+		 </div>	
+		 		     <div class="recuadro-ISO">        
+			<input type="checkbox" id="check 7" class="input-desplegable">
+			
+			<label for="check 7" class="label-desplegable">
+				<h2 id="titulo-directorio" > 🔍 AUDITORÍA DE EVENTOS</h2>
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+					<ul>
+						<li>📌 Configurada en Default Domain Policy</li>
+						<li>📌 Auditar inicio de sesión: correcto y erróneo </li>
+						<li>📌 Auditar administración de cuentas: correcto y erróneo </li>
+						<li>📌 Auditar acceso a objetos: correcto y erróneo 📌 Consultable en: Visor de eventos → Seguridad </li>
+
+					</ul>
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/auditoria.png" alt="Imagen de auditoría"/>
+				 </div> 			
+			</div>	
+		 </div>	
+		  <div class="recuadro-ISO">        
+			<input type="checkbox" id="check 8" class="input-desplegable">
+			
+			<label for="check 8" class="label-desplegable">
+				<h2 id="titulo-directorio" >⚡ SCRIPT POWERSHELL DE APROVISIONAMIENTO</h2>
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+					<ul>
+						<li>📌 Crea usuario, perfil móvil, directorio Z: y grupo con un solo comando: </li>
+						<li>📌 .\aprovisionamiento.ps1 -Nombre "Juan" -Apellido "Garcia" -Usuario "jgarcia" -Grupo "VOLUNTARIOS"</li>
+
+					</ul>
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/scrip.png" alt="Imagen de script de powershell"/>
+				 </div> 			
+			</div>	
+		 </div>	
+		  <div class="recuadro-ISO">        
+			<input type="checkbox" id="check 9" class="input-desplegable">
+			
+			<label for="check 9" class="label-desplegable">
+				<h2 id="titulo-directorio" >🗓️ CICLO DE VIDA DEL ORDENADOR</h2>
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+					<ul>
+						<li>📌 Equipo obsoleto → Recepción → Reacondicionamiento → Alta en dominio →Configuración automática → Asignación al beneficiario → Beneficiario conectado </li>
+
+
+					</ul>
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/line.png" alt="Imagen de ciclo de vida del ordenador"/>
+				 </div> 			
+			</div>	
+		 </div>		
+		 <div class="recuadro-ISO">        
+			<input type="checkbox" id="check 14" class="input-desplegable">
+			
+			<label for="check 14" class="label-desplegable">
+				<h2 id="titulo-directorio"> 🖨️ Servidor de impresión y permisos</h2>
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+				
+				<p>Hemos añadido un servidor de impresión en post de brindar una impresión fácil y sencilla para todos nuestros beneficiarios. Esta servidor de impresión es independiente a los demas servidores haciendo asi un manejo eficiente.</p>
+				
+				 <div class="columna-imagen">
+					<img src="Imagenes/impresoras.png" alt="Imagen de impresoras"/>
+				 </div> 			
+			</div>	
+		 </div>	
+		<div class="recuadro-ISO">        
+			<input type="checkbox" id="check 15" class="input-desplegable">
+			
+			<label for="check 15" class="label-desplegable">
+				<h2 id="titulo-directorio"> LUBUNTU</h2>
+			</label>
+					 
+		
+			<div class="contenido-desplegable">
+				
+				<p>En post de ofrecer un rendimiento optimo en dispostivos reacondicionados, hemos decidido optar por el sistema operativo Linux, en este case la distribución de Lubuntu, que cuenta con un entorno gráfico ligero y en total no llega a consumir 4 GB </p>
+				
+				 <div class="columna-imagen">
+					<img src="Imagenes/VB.png" alt="Imagen de VirtualBox"/>
+				 </div> 			
+			</div>	
+		 </div>	
+			
+					 
+		
+			
+		<div class="contenedor-centrador" >					
+			<a href="https://zabalequipo4.milaulas.com/"  >		
+				<img src="Imagenes/moodle.png" id="boton3" alt="Imagen captura relaciones tablas GBD"  />			
+			</a>
+		</div>		
+		 
+	   
+	   
+	   
 	   <div class="contenedor-centrador" >
 			<img src="Imagenes/w.jpg"
 			id="imagen-a" alt="Imagen sistema LINUX" /> 
 		</div>
 		
 	    <footer id="pie-pagina">
+			<div class="columnas">
+				<img src="Imagenes/zabalburu.png" />
+			</div>
 			<div class="columnas" >
 				<h3> DATOS DE CONTACTO </h3>
 					<p> Esperanza 12 | 48005 Bilbao </p>

@@ -4,25 +4,27 @@
     <title>Misión: Inclusión - Portal Digital</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      	<meta http-equiv="Content-Style-Type" content="text/css" />
     <link rel="stylesheet" type="text/css" href="estilos-reto.css" />
 </head>
 
 <body>
-	 <header class="barra">
-		<div class="menu-contenedor">
+	<header class="barra">
 			<div class="contenedor-principal">
 				<img src="Imagenes/logo.png" alt="Imagen LOGO Equipo4" />
 			</div>
-			<nav>
-				<a href="Index.html" class="opcion-menu">INICIO</a>
-				<a href="PAR.html" class="opcion-menu">PAR</a>
-				<a href="GBD.html" class="opcion-menu">GBD</a>
-				<a href="IPE.html" class="opcion-menu" id="active">IPE</a>
-				<a href="DASP.html" class="opcion-menu">DASP</a>
-				<a href="ISO.html" class="opcion-menu">ISO</a>
+			<nav class="navigation">
+				<input type="checkbox" id="menu">
+				<label for="menu" class="menu-icon"> ☰ </label>
+				
+				<ul class="menu-list">
+				  <li><a href="Index.html">Inicio</a></li>
+				  <li><a href="PAR.html">PAR</a></li>
+				  <li><a href="GBD.html">GBD</a></li>
+				  <li><a href="IPE.html">IPE</a></li>
+				  <li><a href="DASP.html">DASP</a></li>
+				  <li><a href="ISO.html">ISO</a></li>
+				</ul>
 			</nav>
-		</div>
 	</header>
 
 		<div class="contenedor-centrador" >
@@ -35,17 +37,127 @@
 					Itinerario Persona Para la Empleabilidad
 			  </h2>		
                  <p>					
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."					
+					Este módulo se centra en la gestión del factor humano y la organización del equipo mediante la metodología Kanban y herramientas colaborativas como Teams, asegurando una comunicación clara y una distribución de tareas organizada. El proyecto define roles especializados en soporte técnico, formación digital, administración de LMS (Moodle) y seguridad de datos, buscando perfiles que equilibren competencias técnicas avanzadas con una gran sensibilidad social. La misión principal es conectar a los mayores con la tecnología, transformando las herramientas digitales en puentes generacionales a través de la empatía, la ética profesional y la capacitación adaptada.					
                  </p>                 
-		 </div>
+		</div>
 			
-		  <div class="contenedor-centrador" >
-			<img src="Imagenes/ia.png"
-			id="imagen-a" alt="Imagen sobre un contrato de trabajo" /> 
-		  </div>
+		 <div class="recuadro-ISO">        
+			<input type="checkbox" id="check11" class="input-desplegable">
+			
+			<label for="check11" class="label-desplegable">
+				<h2 id="titulo-directorio" > Competencias técnicas </h2>
+			</label>
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+					<ul>
+						<li>Instalación y configuración de sistemas Windows y Linux.</li>
+						<li>Gestión de usuarios, permisos y redes básicas.</li>
+						<li>Implementación y administración de Moodle (LMS).</li>
+						<li>Reutilización y optimización de equipos informáticos.</li>
+						<li>Aplicación de medidas básicas de seguridad y copias de seguridad. </li>
+						<li>Gran dominio en idiomas, nivel B2 mínimo. </li>
+						<li>Carnet de conducir, preferiblemente B con vehículo propio </li>
+
+					</ul>
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/Competencias.png" alt="Competencias"/>
+				 </div> 			
+			</div>		
+		</div>
+		 <div class="recuadro-ISO">        
+			<input type="checkbox" id="check12" class="input-desplegable">
+			
+			<label for="check12" class="label-desplegable">
+				<h2 id="titulo-directorio" > Competencias personales</h2>
+			</label>
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+					<ul>
+						<li>Empatía y paciencia para trabajar con personas mayores.</li>
+						<li>Capacidad de explicar procesos digitales de forma clara y sencilla.</li>
+						<li>Trabajo en equipo y responsabilidad.</li>
+						<li>Compromiso ético con la protección de datos y la inclusión digital.</li>
+					</ul>
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/personal.png" alt="Competencias personales"/>
+				 </div> 			
+			</div>		
+		</div>
+		 <div class="recuadro-ISO">        
+			<input type="checkbox" id="check13" class="input-desplegable">
+			
+			<label for="check13" class="label-desplegable">
+				<h2 id="titulo-directorio" > 📢Soft Skills</h2>
+			</label>
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+					<h3>Gestión de la carga de trabajo</h3>
+						<p>Se aplicará la metodología Kanban mediante un tablero digital con las columnas: Pendiente, En proceso, En pruebas y Finalizado.
+						
+						Cada tarea tendrá un responsable y una prioridad definida. Esto permitirá distribuir mejor el trabajo, detectar incidencias y garantizar una implantación organizada de la infraestructura.</p>
+						<h4>Comunicación interna</h4>
+						<ul>
+							<li>Reunión semanal de seguimiento.</li>
+							<li>Comunicación diaria mediante herramientas colaborativas (Teams o similar).</li>
+							<li>Documentación compartida para manuales técnicos y planificación.</li>
+							<li>Se fomentará una comunicación clara, respetuosa y orientada a la resolución de 	problemas.</li>
+						</ul>
+
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/skill.jpg" alt="Imagen sobre soft skill"/>
+				 </div> 			
+			</div>		
+		</div>
+		 <div class="recuadro-ISO">        
+			<input type="checkbox" id="check14" class="input-desplegable">
+			
+			<label for="check14" class="label-desplegable">
+				<h2 id="titulo-directorio" > 👥 Roles del Equipo</h2>
+			</label>
+			<div class="contenido-desplegable">
+				<div class="columna-lista">				
+						<ul>
+							<li>Soporte Técnico y Hardware: </li>
+								<p>Se encarga de la parte física y lógica inicial: instalación de SO (Windows/Linux), configuración de redes y la optimización de los equipos reutilizados para que funcionen como nuevos.</p>
+							<li>Formación y Capacitación Digital:</li>
+									<p>Es el nexo con el usuario final. Traduce la tecnología a un lenguaje comprensible, diseña los manuales y guía a las personas mayores con paciencia y empatía.</p>
+							<li>Administración de Sistemas y LMS:</li>
+									<p>Su foco es el entorno virtual. Gestiona la plataforma Moodle, organiza los cursos, matricula usuarios y asegura que la estructura digital sea eficiente.</p>
+							<li>Seguridad y Protección de Datos:</li>
+									<p>El guardián de la integridad. Implementa las copias de seguridad, las medidas de ciberseguridad y garantiza que toda la gestión de datos cumpla con el compromiso ético y legal.</p>
+							</ul>
+
+				</div>
+				 <div class="columna-imagen">
+					<img src="Imagenes/roles.png" alt="Imagen sobre roles de equipo"/>
+				 </div> 			
+			</div>		
+		</div>
 		
-     	
-			<footer id="pie-pagina">
+			
+		
+		<div class="contenedor-centrador" >
+		<a href=" ">
+			<img src="Imagenes/linkedin.png" id="boton" alt="Imagen buscando ofertas de trabajo "
+			 /> 
+		</a>
+		</div>
+		
+		<div class="contenedor-centrador" >
+		<a href=" ">
+			<img src="Imagenes/hoja.png" id="boton2" alt="Hoja de papel "
+			 />
+		</a>
+		</div>
+		
+		
+       <footer id="pie-pagina">
+			<div class="columnas">
+				<img src="Imagenes/zabalburu.png" />
+			</div>
 			<div class="columnas" >
 				<h3> DATOS DE CONTACTO </h3>
 					<p> Esperanza 12 | 48005 Bilbao </p>
@@ -56,7 +168,7 @@
 				<ul>
 					<li>		
 						<a href="https://www.osakidetza.euskadi.eus/portada/">
-						Pedir Cita Médica.
+						Pedir Cita Médica. 
 						</a>
 					</li>
 					<li>
@@ -82,12 +194,11 @@
 			   </ul>
 						&copy; copyright - ASIR 1 &#169;
 		    </div>
-	     </footer>
-            
-       
+	     </footer>	
+
 			<script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
 			<script src="https://files.bpcontent.cloud/2026/03/27/08/20260327084806-OQ36NLE7.js" defer></script>
+
 </body>
 </html>	
-
 

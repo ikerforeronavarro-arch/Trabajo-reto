@@ -4,50 +4,60 @@
     <title>Misión: Inclusión - Portal Digital</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      	<meta http-equiv="Content-Style-Type" content="text/css" />
+      	
     <link rel="stylesheet" type="text/css" href="estilos-reto.css" />
 </head>
 
 <body>
 			   
 	<header class="barra">
-		<div class="menu-contenedor">
 			<div class="contenedor-principal">
 				<img src="Imagenes/logo.png" alt="Imagen LOGO Equipo4" />
 			</div>
-			<nav>	
-				<a href="Index.html" class="opcion-menu">INICIO</a>
-				<a href="PAR.html" class="opcion-menu" id="active">PAR</a>
-				<a href="GBD.html" class="opcion-menu">GBD</a>
-				<a href="IPE.html" class="opcion-menu">IPE</a>
-				<a href="DASP.html" class="opcion-menu">DASP</a>
-				<a href="ISO.html" class="opcion-menu">ISO</a>
-			</nav>	
-		</div>
+			<nav class="navigation">
+				<input type="checkbox" id="menu">
+				<label for="menu" class="menu-icon"> ☰ </label>
+				
+				<ul class="menu-list">
+				  <li><a href="Index.html">Inicio</a></li>
+				  <li><a href="PAR.html">PAR</a></li>
+				  <li><a href="GBD.html">GBD</a></li>
+				  <li><a href="IPE.html">IPE</a></li>
+				  <li><a href="DASP.html">DASP</a></li>
+				  <li><a href="ISO.html">ISO</a></li>
+				</ul>
+			</nav>
 	</header>
-		
-		<div class="contenedor-centrador" >
-			<img src="Imagenes/c.png"
-			id="imagen-a" alt="Imagen de ejemplo de un red informatica" /> 
-		</div>
+			
+	<div class="contenedor-centrador" >
+		<img src="Imagenes/c.png"
+		id="imagen-a" alt="Imagen de ejemplo de un red informatica" /> 
+	</div>
 		
 		<div class="recuadro-claro">
 			<h2>
 				Planificacion y Administracion en Redes 
 			</h2>
 				<p>
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+					El objetivo de este módulo es diseñar e implementar la infraestructura de comunicaciones mediante Packet Tracer, conectando los equipos del centro con el servidor de formación. Se configuran servicios de red críticos como DHCP para la gestión automática de IPs y DNS interno , garantizando la protección de los datos de los beneficiarios mediante el uso de firewalls y listas de control de acceso (ACLs).</p>
+				<p>	Topología: Estrella Extendida en VLANS</br>
+					Segmentación: 4 VLANS</br>
+					Enrutamiento: Combinación de de enrutamiento dinámico RIPv2 para la intercomunicación de sedes y rutas estáticas para la salida a Internet</br>
+					Seguridad: Gestión remota mediante SSH protegido por listas de acceso ACL y un tunel VPN para el tráfico entr		
 				</p>
 		</div>
 	
 		<div class="contenedor-centrador-b">
 			<div id="imagen-b">
-				<img src="Imagenes/Captura de pantalla 2026-04-28 081205.png" alt="Red Informática" />
+				<img src="Imagenes/red.png" alt="Red Informática" />
 			</div>
 		</div>
  
 
 	    <footer id="pie-pagina">
+			<div class="columnas">
+				<img src="Imagenes/zabalburu.png" />
+			</div>
 			<div class="columnas" >
 				<h3> DATOS DE CONTACTO </h3>
 					<p> Esperanza 12 | 48005 Bilbao </p>
@@ -55,36 +65,36 @@
 			
 			<div class="columnas">
 				<h3>LISTA DE ENLACES </h3>
-				<ul>
-					<li>		
-						<a href="https://www.osakidetza.euskadi.eus/portada/">
-						Pedir Cita Médica. 
-						</a>
-					</li>
-					<li>
-						<a href="https://www.osakidetza.euskadi.eus/carpeta-de-salud/webosk00-sercon/es/">Carpeta de Salud.</a>
-					</li>
-					<li>
-						<a href="https://www.citapreviadnie.es/citaPreviaDni">Cita DNI/Pasaporte.</a>
-					</li>
-					<li>
-						<a href="https://www.bilbao.eus/cs/Satellite?cid=1272990083710&language=es&pagename=Bilbaonet/Page/BIO_homeSrvTramites">Sede Electrónica Ayuntamiento.
-						</a>
-				   </li>
-				   <li>
-						<a href="https://portal.seg-social.gob.es/wps/portal/importass/importass/Categorias/Vida+laboral+e+informes/Informes+sobre+tu+situacion+laboral/Informe+de+tu+vida+laboral">Seguridad Social / Vida Laboral.
-						</a>
-				  </li>
-				  <li>
-						<a href="https://www.bbva.es/nimbus/signin.html">Acceso a mi Banco.</a>
-				  </li>
-				  <li>
-						<a href="https://www.mercadona.es/">Supermercado Online.</a>
-				  </li>
-			   </ul>
+					<ul>
+						<li>		
+							<a href="https://www.osakidetza.euskadi.eus/portada/">
+							Pedir Cita Médica. 
+							</a>
+						</li>
+						<li>
+							<a href="https://www.osakidetza.euskadi.eus/carpeta-de-salud/webosk00-sercon/es/">Carpeta de Salud.</a>
+						</li>
+						<li>
+							<a href="https://www.citapreviadnie.es/citaPreviaDni">Cita DNI/Pasaporte.</a>
+						</li>
+						<li>
+							<a href="https://www.bilbao.eus/cs/Satellite?cid=1272990083710&language=es&pagename=Bilbaonet/Page/BIO_homeSrvTramites">Sede Electrónica Ayuntamiento.
+							</a>
+						</li>
+						<li>
+							<a href="https://portal.seg-social.gob.es/wps/portal/importass/importass/Categorias/Vida+laboral+e+informes/Informes+sobre+tu+situacion+laboral/Informe+de+tu+vida+laboral">Seguridad Social / Vida Laboral.
+							</a>
+						</li>
+						<li>
+							<a href="https://www.bbva.es/nimbus/signin.html">Acceso a mi Banco.</a>
+						</li>
+						<li>
+							<a href="https://www.mercadona.es/">Supermercado Online.</a>
+						</li>
+					</ul>
 						&copy; copyright - ASIR 1 &#169;
 		    </div>
-	     </footer>
+	    </footer>
             
 			
 		<script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
